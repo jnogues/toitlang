@@ -11,7 +11,7 @@ import pubsub
 
 V3S       ::= 27 //gpio turn on i2c in whitecat board
 CLIENT_ID ::= "wc-1"
-HOST      ::= "167.86.87.117"
+HOST      ::= "test.mosquitto.org"
 PORT      ::= 1883
 TOPIC     ::= "/toit/wc-1"
 
