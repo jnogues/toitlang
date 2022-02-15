@@ -1,0 +1,5 @@
+name: "bme280MQTTApp"
+entrypoint: bme280MQTT.toit
+triggers:
+  on_interval: 30s
+  on_install: true
