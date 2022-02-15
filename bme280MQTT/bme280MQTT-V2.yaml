@@ -1,0 +1,5 @@
+name: "bme280App-V2"
+entrypoint: bme280MQTT-V2.toit
+triggers:
+  on_boot: true
+  on_install: true
