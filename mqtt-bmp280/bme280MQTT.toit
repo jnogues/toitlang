@@ -51,7 +51,7 @@ main:
   
   sleep --ms=100 //necessary??
 
-// funcions
+// functions
 publish client/mqtt.Client payload_t/float payload_h/float payload_p:
   // Publish message to topic
   timeStamp := Time.now.local//add timestamp to message
